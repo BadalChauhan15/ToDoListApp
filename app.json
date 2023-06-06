@@ -1,21 +1,36 @@
 {
   "expo": {
-    "name": "TodoListApp",
-    "slug": "TodoListApp",
+    "name": "TodoList App",
+    "slug": "rntodolistapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.rntodolistapp.todolistapp"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "08c2a70f-83e0-4ee9-84fe-012084f25dad"
+      }
     }
   }
 }
